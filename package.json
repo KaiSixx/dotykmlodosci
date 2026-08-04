@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/site.css --minify"
+  },
+  "description": "Statyczna strona gabinetu Dotyk Młodości",
+  "private": true
+}
